@@ -1,5 +1,5 @@
 #include "funds.h"
 
 int MiniMeSecret(){
-	return 3;
+	return 71;
 }
