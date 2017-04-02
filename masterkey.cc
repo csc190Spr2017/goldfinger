@@ -1,5 +1,6 @@
-#include <funds.cc>
+#include "funds.h"
+#include <stdio.h>
 
 int main(){
-	printt("The master key is %d\n", MiniMeSecret() * NumberTwoSecret() * EvilSecret());
+	printf("The master key is %d\n", MiniMeSecret() * NumberTwoSecret() * EvilSecret());
 }
